@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SpaceX</title>
+
+    <link rel="stylesheet" href="style/master.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="logo">
+        <img src="img/logo.svg" alt="Logo SpaceX">
+      </div>
+      <h1>Missions SpaceX</h1>
+      <div class="next_fire">
+        <h2>Prochain lancement : {{ nextFireDate }}</h2>
+        <h2>Dans {{ countdown }} secondes</h2>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="script/script.js" charset="utf-8"></script>
+  </body>
+</html>

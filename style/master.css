@@ -1,0 +1,17 @@
+*{
+  color: white;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #111;
+  background-image: url("../img/background.jpg");
+}
+.logo img{
+  width: 33em;
+  height: auto;
+
+}
+.next_fire, h1{
+  text-align: center;
+}
